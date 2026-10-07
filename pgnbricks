@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="PGN Bricks - Light Weight Bricks in Gopalpet, Wanaparthy. Telangana-wide delivery.">
+
+<title>PGN Bricks | Light Weight Bricks</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #222;
+}
+
+header {
+    background: #1f1f1f;
+    color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #e88920;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 75px 20px;
+    background: linear-gradient(135deg, #fff0d5, #eeeeee);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #c75d16;
+}
+
+.hero p {
+    font-size: 19px;
+    margin: 10px auto;
+    max-width: 700px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    margin: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary {
+    background: #c75d16;
+    color: white;
+}
+
+.secondary {
+    background: white;
+    color: #c75d16;
+    border: 2px solid #c75d16;
+}
+
+section {
+    padding: 55px 7%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000015;
+}
+
+.card h3 {
+    color: #a84d13;
+    margin-bottom: 10px;
+}
+
+.product {
+    background: white;
+    text-align: center;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #00000015;
+}
+
+.price {
+    font-size: 38px;
+    font-weight: bold;
+    color: #c75d16;
+    margin: 15px;
+}
+
+.contact {
+    max-width: none;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+.contact .title {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 18px;
+    background: #111;
+    color: #ccc;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 15px 5%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+        padding: 55px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    section {
+        padding: 45px 5%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        PGN <span>Bricks</span>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#product">Product</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero">
+
+    <h1>
+        PGN <span>Bricks</span>
+    </h1>
+
+    <p>
+        Quality Light Weight Bricks for reliable
+        and efficient construction.
+    </p>
+
+    <p>
+        <strong>
+            🏆 15 Years Experience
+            • 🚚 Telangana-wide Delivery
+        </strong>
+    </p>
+
+    <div class="buttons">
+
+        <a class="btn primary"
+           href="tel:9381940250">
+           📞 Call Now
+        </a>
+
+        <a class="btn secondary"
+           href="https://wa.me/919381940250?text=Hello%20PGN%20Bricks%2C%20I%20want%20to%20know%20more%20about%20Light%20Weight%20Bricks.">
+           💬 WhatsApp
+        </a>
+
+        <a class="btn secondary"
+           href="https://maps.app.goo.gl/mUnDCC9FGb77cgM68"
+           target="_blank">
+           📍 Get Directions
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2 class="title">
+        Why Choose PGN Bricks?
+    </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🏆 15 Years Experience</h3>
+            <p>
+                15 years of experience in the bricks business.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💪 Strong & Durable</h3>
+            <p>
+                Quality Light Weight Bricks for dependable
+                construction applications.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚚 Telangana Delivery</h3>
+            <p>
+                Delivery available across Telangana.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💰 Reasonable Price</h3>
+            <p>
+                Light Weight Bricks available at ₹7 per brick.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Easy Handling</h3>
+            <p>
+                Lightweight design makes handling and
+                construction work easier.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📦 Bulk Orders</h3>
+            <p>
+                Bulk orders are available for construction
+                requirements.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCT -->
+
+<section id="product">
+
+    <h2 class="title">
+        Our Product
+    </h2>
+
+    <div class="product">
+
+        <h2>
+            🧱 Light Weight Bricks
+        </h2>
+
+        <p>
+            Quality Light Weight Bricks for construction projects.
+        </p>
+
+        <div class="price">
+            ₹7 <small>/ Brick</small>
+        </div>
+
+        <a class="btn primary"
+           href="https://wa.me/919381940250?text=Hello%20PGN%20Bricks%2C%20I%20want%20to%20place%20an%20order.">
+           🛒 Order Now
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <h2 class="title">
+        Contact PGN Bricks
+    </h2>
+
+    <p>
+        📍 Gopalpet (V&M), Wanaparthy (D), Telangana
+    </p>
+
+    <p>
+        📞 9381940250
+    </p>
+
+    <div class="buttons">
+
+        <a class="btn primary"
+           href="tel:9381940250">
+           📞 Call Now
+        </a>
+
+        <a class="btn secondary"
+           href="https://wa.me/919381940250">
+           💬 WhatsApp
+        </a>
+
+        <a class="btn secondary"
+           href="https://maps.app.goo.gl/mUnDCC9FGb77cgM68"
+           target="_blank">
+           📍 Get Directions
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    © 2026 PGN Bricks. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
